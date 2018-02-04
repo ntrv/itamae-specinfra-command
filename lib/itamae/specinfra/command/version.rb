@@ -1,6 +1,6 @@
 module Itamae
   module Specinfra
-    module Command
+    class Command
       VERSION = '0.0.1'
     end
   end
