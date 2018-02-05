@@ -1,4 +1,4 @@
-require 'itamae/specinfra/command/base'
+require 'specinfra/command_runner/base'
 
 module Specinfra
   module CommandRunner

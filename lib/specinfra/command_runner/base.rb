@@ -1,4 +1,4 @@
-require 'itamae/specinfra/command/version'
+require 'specinfra/command_runner/version'
 require 'itamae'
 require 'specinfra'
 
