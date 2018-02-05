@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'itamae/specinfra/command/version'
+require 'specinfra/command_runner/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'itamae-specinfra-command'
-  spec.version       = Itamae::Specinfra::Command::VERSION
+  spec.version       = Specinfra::CommandRunner::VERSION
   spec.authors       = ['ntrv']
   spec.email         = ['hydrangea56@me.com']
   spec.summary       = 'Wrapper for using Specinfra Command in Itamae'
