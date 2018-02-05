@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    itamae-specinfra-command (0.0.2)
+    itamae-specinfra-command (0.1.0)
       itamae
       specinfra
 
