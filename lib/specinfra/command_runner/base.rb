@@ -6,6 +6,7 @@ module Specinfra
   module CommandRunner
     class Base
       def initialize
+        raise NoImplementedError
       end
 
       # typeを指定してspecinfraを呼び出すためのメソッド
