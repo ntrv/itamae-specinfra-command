@@ -6,7 +6,7 @@ module Specinfra
   module CommandRunner
     class Base
       def initialize
-        raise NoImplementedError
+        raise NotImplementedError
       end
 
       # typeを指定してspecinfraを呼び出すためのメソッド
@@ -30,7 +30,7 @@ module Specinfra
 
       # Specinfraのコマンドを文字列で返す
       def specinfra_command(type, *args)
-        raise NoImplementedError
+        raise NotImplementedError
       end
 
       # backend上でコマンドの実行結果のステータスコードが0かどうかを返す
